@@ -1,0 +1,72 @@
+----------==---------- Prototypes in JavaScript ----------==----------
+
+- Every JavaScript object has a prototype, and all javascript functions have a prototype property.
+
+- The prototype is where the methods like toString() or hasOwnProperty() come from (inherited from Object.prototype).
+
+- We can add new properties or methods to an object's prototype, which will be available to all instances of that object.
+
+----------==---------- Advanced Functions in JS ----------==----------
+ 
+ ******************* First-Class Functions *******************
+- Fuctions can be assigned to variables     : const add = (a, b) => a +b;
+
+- Can be passed as arguments                : const operate = (fu, x, y) => fn(x, y);
+
+- Can be returned from other functions      : console.log(operate(add, 5, 3)); // Output: 8 
+
+
+******************* Higher-Order Functios *******************
+
+- takes one or more functios as arguments, or
+- returns a function as a result
+
+ 
+ ******************* Curring *******************
+This is a technique of evaluating a function that takes multiple arguments, into a sequence of functions that each take one argument.
+
+
+ ******************* Function Closures *******************
+ A closure is a function that "remembers" its laxical scope even when the function is executed outside the scope.
+ 
+**************** Immediately Invoked function Expression *************
+Functio is executed immediately after its Creation 
+
+
+**************** Call, Apply and Bind *********************
+
+These methods allow you to change the context (this) of a function
+
+- call(): calls a functin with a specified this value and arguments provided individually
+
+- apply(): similar to call(), but arguments are provided as an array;
+
+- Returns(): a new function that, when called has this value set to the provided value.
+
+
+
+----------==---------- Error Handling in JS ----------==----------
+- `try...catch` Block
+test block of code for errors and handle them without breaking the execution of program 
+
+
+- `finally` Block
+- Run regardless of of whether there is an error or not.
+
+
+- Custom Errors
+throw your own custom error statments
+
+
+
+
+
+----------==---------- Regular Expressions in JS  ----------==----------
+
+Searching, matching and replacing the strings
+
+
+
+
+
+
